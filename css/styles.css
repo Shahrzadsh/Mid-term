@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY STYLES */
+
+body {
+    background-color:#aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+  
+h1  {
+    font-size: 64px;
+    color:white;
+    text-align: center;
+    position:relative;
+    padding-top: 220px;
+    
+    
+}
+
+h2   {
+    font-size:36px;
+    padding-top:50px;
+    padding-bottom:23px;
+}
+
+h2 {
+    font-size:36px;
+}
+
+h3,h4{ 
+    font-size:36px;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+
+
+p  {
+    font-size: 16px;
+    line-height:24px;
+
+
+}
+ .box {
+    border:1px solid black;
+    margin-top: 20px;
+}
+
+
+.container  {
+    width:1024px;
+    background-color: #d4e9e7;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+ main {
+     width: 1004px;
+     padding:10px;
+     margin-bottom:50px;
+
+ }
+ 
+
+.heading1 {
+    width:1024px;
+    height: 341px;
+    background:url(../img/lone-starfish-wide.jpg);
+    position: relative;
+    text-align: center;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
+}
+  nav ul li{
+     display: inline;
+      margin:0 ;
+     
+    }
+
+  nav ul li a {
+    display:inline-block;
+    width: 337px;
+    line-height: 55px; 
+    text-align:center; 
+    font-size:29px;
+    border-right:1px solid black;
+    text-decoration:none;
+    margin :0 auto;
+    text-align: center;
+    color: black;
+
+  }
+nav ul li:nth-child(3) a{
+    border-right: 0;
+}
+
+  
+
+  ul li
+  {
+      margin-left:20px;
+
+  }
+
+
+  img{
+      float:left;
+      margin-right:20px;
+      margin-bottom: 10px;
+
+
+  }
+
+  .container {
+
+   font-size:16px;
+    margin:0 auto;
+
+  }
+
+ text{
+    font-size:18px;
+ }
+  .box {
+      width:1003px;
+      height:483px;
+
+  }
+  
+  
+  .form input,
+  textarea{
+    width: 930px;
+    margin-right:16px;
+    margin-left:16px;
+    border: solid 1px #ddd;
+    padding:20px;
+ }
+ label {
+    display: block;
+    color: #333;
+    margin-left: 16px;
+    margin-top: 10px;
+   }
+   .radio{
+       margin: 20px;
+   }
+   .radio label{
+       display: inline;
+   }
+  .btn{
+      width:56px;
+      height:38px;
+      margin: 10px;
+      padding: 2px;
+  }
+  footer p{
+      text-align: right;
+     
+  }
+  footer{
+      margin-bottom:10px;
+  }
+
